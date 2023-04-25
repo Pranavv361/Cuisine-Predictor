@@ -70,7 +70,7 @@ These values are stored in the stats files.
 
 ### Code Output
 The code output is stored in stored in file with name : **output.json**.
-![image](https://github.com/Pranavv361/cs5293sp23-project1/blob/main/Output%20docs/Stats%20file%20output.png)
+![image](https://github.com/Pranavv361/cs5293sp23-project2/blob/main/Output%20videos%20and%20images/project2.py%20Execution.png)
 
 ### Test Output
 The test cases are created in single file **test.py**. The purpose of the test.py is to check the functions with sample input and make sure we get correct output. The attached image below shows the output for test cases of all the functions.
@@ -78,7 +78,7 @@ To run the test.py using pytest library use the following code.
 ```
 pipenv run python -m pytest .\test\test.py
 ```
-![image](https://github.com/Pranavv361/cs5293sp23-project1/blob/main/Output%20docs/test.py%20output.png)
+![image](https://github.com/Pranavv361/cs5293sp23-project2/blob/main/Output%20videos%20and%20images/test.py%20Execution.png)
 
 The **load_data()** function is tested using the **test_load_data()** method. It makes a test directory, generates a JSON file with test data, then loads it with the **load_data()** function. The function then checks to see if the output is a pandas DataFrame, if the column names are correct, and if the data matches the expected values.
 
@@ -87,7 +87,7 @@ The function **test_normalize_data()** verifies the **normalize_data()** functio
 The **modeltrain()** function created in the PreprocessAndModelling module is tested using the **test_modeltrain()** method. It uses the **load_data()** method to load the yummly.json file, and then gives the loaded data, a list of ingredients, and a number to the **modeltrain()** function. After that, the function checks to see if the output lists contain the expected lengths and data types.
 
 ### Assumptions:
-1. 
+1. The data file always be .json file.
 
 ### Bugs:   
-1. The LSVC model will not work for datapoints less than 10 as it uses crossvalidation.
+1. The LSVC model will not work for datapoints less than 10 as it uses crossvalidation with cv = 10.
