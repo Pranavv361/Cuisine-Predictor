@@ -1,26 +1,26 @@
 {
-  "cuisine": "indian",
-  "score": 0.58,
+  "cuisine": "filipino",
+  "score": 0.24,
   "closest": [
     {
-      "id": "2941",
-      "score": 0.18
+      "id": "25693",
+      "score": 0.15
     },
     {
-      "id": "45887",
+      "id": "699",
+      "score": 0.11
+    },
+    {
+      "id": "34466",
       "score": 0.1
     },
     {
-      "id": "3735",
-      "score": 0.04
-    },
-    {
-      "id": "18515",
-      "score": 0.04
+      "id": "6602",
+      "score": 0.08
     },
     {
       "id": "42779",
-      "score": 0.01
+      "score": 0.07
     }
   ]
 }
