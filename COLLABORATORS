@@ -1,0 +1,4 @@
+sklearn.svm.svc Documentation | https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html | Helped me to implement svm model.
+joblib Documentation | https://joblib.readthedocs.io/en/latest/ | Helped me to dump and load models.
+Re Library Documentation | https://docs.python.org/3/library/re.html | Helped me to write the regular expressions to get phone patterns in the text.
+sklearn.preprocessing.LabelEncoder | https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html | Helped me to write code for encoding of target variable.
