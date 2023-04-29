@@ -15,7 +15,7 @@ import joblib
 #Testing load_data function with test data
 def test_load_data():
      
-    dir_path = os.path.join(os.getcwd(), 'test')
+    dir_path = os.path.join(os.getcwd(), 'docs')
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
     

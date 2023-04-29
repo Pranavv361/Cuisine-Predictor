@@ -87,7 +87,7 @@ The function **test_normalize_data()** verifies the **normalize_data()** functio
 The **modeltrain()** function created in the PreprocessAndModelling module is tested using the **test_modeltrain()** method. It uses the **load_data()** method to load the yummly.json file, and then gives the loaded data, a list of ingredients, and a number to the **modeltrain()** function. After that, the function checks to see if the output lists contain the expected lengths and data types.
 
 ### Assumptions:
-1. The data file always be .json file.
+1. The data file should always be .json file.
 
 ### Bugs:   
 1. The LSVC model will not work for datapoints less than 10 as it uses crossvalidation with cv = 10.
