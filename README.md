@@ -73,14 +73,14 @@ The code output is stored in stored in file with name : **output.json**.
 ![image](https://github.com/Pranavv361/cs5293sp23-project2/blob/main/Output%20videos%20and%20images/project2.py%20Execution.png)
 
 ### Test Output
-The test cases are created in single file **test.py**. The purpose of the test.py is to check the functions with sample input and make sure we get correct output. The attached image below shows the output for test cases of all the functions.
-To run the test.py using pytest library use the following code.
+The test cases are created in single file **test_project2.py**. The purpose of the test_project2.py is to check the functions with sample input and make sure we get correct output. The attached image below shows the output for test cases of all the functions.
+To run the test_project2.py using pytest library use the following code.
 ```
-pipenv run python -m pytest .\test\test.py
+pipenv run python -m pytest
 ```
-![image](https://github.com/Pranavv361/cs5293sp23-project2/blob/main/Output%20videos%20and%20images/test.py%20Execution.png)
+![image](https://github.com/Pranavv361/cs5293sp23-project2/blob/main/Output%20videos%20and%20images/test_project2.py%20Execution.mp4)
 
-The **load_data()** function is tested using the **test_load_data()** method. It makes a test directory, generates a JSON file with test data, then loads it with the **load_data()** function. The function then checks to see if the output is a pandas DataFrame, if the column names are correct, and if the data matches the expected values.
+The **load_data()** function is tested using the **test_load_data()** method. It makes a test directory, generates a JSON file with test data named **test.json** in **docs** folder, then loads it with the **load_data()** function. The function then checks to see if the output is a pandas DataFrame, if the column names are correct, and if the data matches the expected values.
 
 The function **test_normalize_data()** verifies the **normalize_data()** function defined in the PreprocessAndModelling module. It sends a list of ingredient names to the **normalize_data()** method and checks for a string of normalized ingredient names.
 
