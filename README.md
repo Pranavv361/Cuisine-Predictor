@@ -1,6 +1,6 @@
 ## Author - Pranav Vichare
 ## Cuisine Predictor
-**About:**  Project 2's purpose is to produce applications that take a user's list of components and attempt to forecast the type of cuisine and related meals. Assume a chef has a list of ingredients and wants to update the present meal without changing the components. The following steps should be taken.
+**About:**  Project's purpose is to produce applications that take a user's list of components and attempt to forecast the type of cuisine and related meals. Assume a chef has a list of ingredients and wants to update the present meal without changing the components. The following steps should be taken.
 1. Train (or index for search) the specified food data.
 2. Request that the user enter all of the elements in which they are interested (through command line arguments).
 3. Predict the type of cuisine using the model (or search index) and inform the user.
