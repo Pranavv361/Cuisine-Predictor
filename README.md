@@ -1,4 +1,4 @@
-## cs5293sp23-project2 (Text - Analytics Project 2)
+## Cuisine Predictor
 ## Author - Pranav Vichare
 ## Cuisine Predictor
 **About:**  Project 2's purpose is to produce applications that take a user's list of components and attempt to forecast the type of cuisine and related meals. Assume a chef has a list of ingredients and wants to update the present meal without changing the components. The following steps should be taken.
